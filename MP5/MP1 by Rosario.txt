@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Machine problem No.2</title>
+	</head>
+	<body bgcolor="yellow">
+		<h1><marquee behavior="alternate" scrollamount="20">Web Development</marquee></h1>
+		<img scr="C:\Users\jheru\OneDrive\Pictures\Saved Pictures\ID Picture">
+		<h2><center>Jheru G. Rosario/no.21-00561</center></h2>
+		<h3><center>ICT122/Saturday/5:30pm</center></h3>
+		<h4><center>s-EARL-bisyong totoo!</center></h4>
+		<!rest of the page does go here. this is a comment.>
+	</body>
+</html>
