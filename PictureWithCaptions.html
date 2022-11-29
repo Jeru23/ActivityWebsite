@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>
+      MP8: Personal Website
+    </title>
+
+    <style>
+      
+      body {
+        background-image:url(MP6/60108123d58c7f4754c2b6b5_6002086f72b727df6d01df3b_business-website-examples.jpeg) ;
+        font-family: Arial, Helvetica, sans-serif;
+        background-repeat: no-repeat;
+        background-size: auto;
+        
+      }
+    
+      .banner {
+        background-image: url(MP6/279112422_755281315604701_963184726734188273_n.jpg);
+        padding: 1px;
+        border-radius: 15px;
+        display: block;
+      }
+    
+      .banner_text {
+        font-weight: 100;
+        text-align: center;
+        color: rgb(31, 31, 117);
+        text-shadow: #ab9f9f 4px 3px 0;
+      }
+    
+      .navbar {
+        overflow: hidden;
+        background-color: rgb(46, 21, 159);
+        padding: 15px;
+        display: block;
+      }
+
+      .navbar a {
+        float: left;
+        display: block;
+        font-size: 17px;
+        text-align: center;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      .dropdown {
+        float: right;
+        overflow: hidden;
+        margin-top: 15px;
+        margin-right: 30px;
+        display: block;
+      }
+
+      .dropdown .dropbtn {
+        font-size: 20px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: rgb(161, 159, 244);
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ccc3f4;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .title {
+        text-align: center;
+        font-family: Times New Roman, Times, serif ; color: #ffffff;
+      }
+      
+      .data {
+        background-color: #ddd;
+        padding: 50px;
+        overflow: auto;
+        border-radius: 20px;
+      }
+      
+      /* Gallery */
+
+      div.gallery {
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 20px;
+      }
+
+      div.gallery:hover {
+        border: 1px solid rgb(113, 13, 175);
+        border-radius: 20px;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 25%;
+        margin-bottom: 10px;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 50%;
+          margin: 6px 0;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .pic {
+        border-radius: 20px;
+      }
+
+    </style>
+
+  </head>
+
+  <body >
+
+    <div class="banner">
+      <div class="banner_text">
+        <h1>PERSONAL WEBSITE</h1>
+      </div>  
+    </div>
+
+    <div class="navbar">
+      
+      <a href="main.html"><img src="115-1153942_white-home-icon-png-white-home-logo-transparent.png" height="40px" alt="home"></a>
+      <div class="dropdown">
+        <button class="dropbtn">Personal 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="PersonalData.html">Personal Data</a>
+          <a href="AboutMe.html">About me</a>
+          <a href="Interest.html">Interest</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Education
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="GradeSchool.html">Grade School</a>
+          <a href="HighSchool.html">High School</a>
+          <a href="Collage.html">Collage</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Family
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Parents.html">Parents</a>
+          <a href="Siblings.html">Siblings</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn">Friends 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Community.html">Hangouts</a>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropbtn" style="background-color:#a86eef ;">Gallery 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="PictureWithCaptions.html" style="text-decoration:underline ;">Picture With Caption</a>
+        </div>
+      </div> 
+
+		<!--ICT122 Act. Section Has To Be Construction-->
+
+      <div class="dropdown">
+        <button class="dropbtn">ICT122 Activities
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="MP1&2/MP1 by Rosario.html" target="_blank">MP1</a>
+          <a href="MP1&2/MP2 by Rosario.html" target="_blank">MP2</a>
+          <a href="MP3/MP3 by Rosario.html" target="_blank">MP3</a>
+          <a href="MP4/MP4 by Rosario.html" target="_blank">MP4</a>
+          <a href="MP5/index.html" target="_blank">MP5</a>
+          <a href="MP6/index.html" target="_blank">MP6</a>
+          <a href="MP7/index.html" target="_blank">MP7</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="title">
+      <h1>GALLERY</h1>
+    </div>
+
+    <div class="data">
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Gallery/IMG_20220304_202158.jpg">
+            <img class="pic" src="Gallery/IMG_20220304_202158.jpg" alt="Picture" width="600" height="400">
+          </a>
+          <div class="desc">
+            04/03/2022
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Gallery/IMG_20220705_154231.jpg">
+            <img class="pic" src="Gallery/IMG_20220705_154231.jpg" alt="Picture" width="600" height="400">
+          </a>
+          <div class="desc">
+            05/07/2022
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Gallery/IMG_20220705_154720.jpg">
+            <img class="pic" src="Gallery/IMG_20220705_154720.jpg" alt="Picture" width="600" height="400">
+          </a>
+          <div class="desc">
+            05/07/2022
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Gallery/IMG_20221023_163022.jpg">
+            <img class="pic" src="Gallery/IMG_20221023_163022.jpg" alt="Picture" width="600" height="400">
+          </a>
+          <div class="desc">
+           23/10/2022
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Gallery/IMG_20211022_171351.jpg">
+            <img class="pic" src="Gallery/IMG_20211022_171351.jpg" alt="Picture" width="600" height="400">
+          </a>
+          <div class="desc">
+            22/10/2021
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Gallery/Mindspace.jpg">
+            <img class="pic" src="Gallery/Mindspace.jpg" alt="Picture" width="600" height="400">
+          </a>
+          <div class="desc">
+            17/09/2022
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Gallery/Spoliarium.jpg">
+            <img class="pic" src="Gallery/Spoliarium.jpg" alt="Picture" width="600" height="400">
+          </a>
+          <div class="desc">
+            Spoliarium by Juan Luna
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="Gallery/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg">
+            <img class="pic" src="Gallery/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="Picture" width="600" height="400">
+          </a>
+          <div class="desc">
+            Starry Night by Van Gogh
+          </div>
+        </div>
+      </div>
+
+    </div>    
+
+  </body>
+
+</html>
